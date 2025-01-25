@@ -27,6 +27,7 @@
 		6FF92C9C22BBB19500AD5C8E /* Array+RepeatDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF92C9B22BBB19500AD5C8E /* Array+RepeatDay.swift */; };
 		6FF92C9F22BBB2B100AD5C8E /* AlarmRepeatCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF92C9E22BBB2B100AD5C8E /* AlarmRepeatCellView.swift */; };
 		6FFFA8F522BB7F7600691BED /* RepeatDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFA8F422BB7F7600691BED /* RepeatDay.swift */; };
+		840A3E152D44D6BF00E9A57F /* AlarmEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A3E142D44D6BF00E9A57F /* AlarmEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		6FF92C9B22BBB19500AD5C8E /* Array+RepeatDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+RepeatDay.swift"; sourceTree = "<group>"; };
 		6FF92C9E22BBB2B100AD5C8E /* AlarmRepeatCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmRepeatCellView.swift; sourceTree = "<group>"; };
 		6FFFA8F422BB7F7600691BED /* RepeatDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatDay.swift; sourceTree = "<group>"; };
+		840A3E142D44D6BF00E9A57F /* AlarmEditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 		6F74C98622B37B2B00362250 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				840A3E142D44D6BF00E9A57F /* AlarmEditView.swift */,
 				6F74C96722B37AC200362250 /* AlarmListView.swift */,
 				6F52433022BA628600C80EA4 /* AlarmAddView.swift */,
 				6FF92C8F22BB9BF900AD5C8E /* AlarmRepeatView.swift */,
@@ -304,6 +307,7 @@
 				6FF92C9922BB9D9B00AD5C8E /* AlarmLabelView.swift in Sources */,
 				6F74C96622B37AC200362250 /* SceneDelegate.swift in Sources */,
 				6FF92C9322BB9CCC00AD5C8E /* AlarmAddRepeatCellView.swift in Sources */,
+				840A3E152D44D6BF00E9A57F /* AlarmEditView.swift in Sources */,
 				6FF92C9C22BBB19500AD5C8E /* Array+RepeatDay.swift in Sources */,
 				6F74C98E22B37E8C00362250 /* UserDefaultAlarm.swift in Sources */,
 				6F74C98A22B37B9200362250 /* AlarmView.swift in Sources */,
