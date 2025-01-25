@@ -12,8 +12,11 @@ struct AlarmLabelView : View {
   @Binding var label: String
   
   var body: some View {
-    TextField($label)
-      .textFieldStyle(.roundedBorder)
-      .navigationBarTitle(Text("Label"), displayMode: .inline)
+    VStack {
+      TextField("Enter label", text: $label)
+        .textFieldStyle(RoundedBorderTextFieldStyle())
+        .padding()
+    }
+    .navigationBarTitle(Text("Label"), displayMode: .inline)
   }
 }

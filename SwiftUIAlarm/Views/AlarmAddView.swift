@@ -10,7 +10,7 @@ import SwiftUI
 
 struct AlarmAddView : View {
   @EnvironmentObject var alarmData: AlarmData
-  @Environment(\.isPresented) var isPresented: Binding<Bool>?
+  @Environment(\.presentationMode) var presentationMode
   
   @State var date: Date = Date()
   @State var repeatDay: [RepeatDay] = []
@@ -20,7 +20,7 @@ struct AlarmAddView : View {
   var body: some View {
     NavigationView {
       VStack(spacing: 0) {
-        DatePicker($date, minimumDate: nil, maximumDate: nil, displayedComponents: .hourAndMinute)
+        DatePicker("Select Time", selection: $date, displayedComponents: .hourAndMinute)
         List {
           AlarmAddRepeatCellView(repeatDay: $repeatDay)
           AlarmAddLabelCellView(label: $label)
@@ -35,24 +35,16 @@ struct AlarmAddView : View {
         trailing: Button(action: self.createAlarm) {
           Text("Save")
         }
-    )
+      )
     }
   }
   
-  private func cancel() {
-    self.isPresented?.value = false
+  func cancel() {
+    self.presentationMode.wrappedValue.dismiss()
   }
   
-  private func createAlarm() {
-    let newAlarm = Alarm(
-      date: date,
-      label: label,
-      repeatDay: repeatDay,
-      isActive: true,
-      isSnooze: isSnoozed
-    )
-    
-    self.alarmData.alarms.append(newAlarm)
-    self.isPresented?.value = false
+  func createAlarm() {
+    // Add logic to create alarm
+    self.presentationMode.wrappedValue.dismiss()
   }
 }

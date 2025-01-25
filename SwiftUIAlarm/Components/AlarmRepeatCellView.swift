@@ -20,11 +20,11 @@ struct AlarmRepeatCellView : View {
       if isContained {
         Image(systemName: "checkmark")
           .foregroundColor(Color.accentColor)
-        }
       }
-      .tapAction(count: 1) {
-        self.toggle(self.index)
-      }
+    }
+    .onTapGesture {
+      self.toggle(self.index)
+    }
   }
   
   private func toggle(_ index: Int) {

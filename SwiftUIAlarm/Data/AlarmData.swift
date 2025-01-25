@@ -9,13 +9,13 @@
 import Combine
 import SwiftUI
 
-final class AlarmData: BindableObject {
-  let didChange = PassthroughSubject<AlarmData, Never>()
+final class AlarmData: ObservableObject {
+  let objectWillChange = PassthroughSubject<AlarmData, Never>()
   
   @UserDefaultAlarm(key: "Alarms", defaultValue: Alarm.defaultAlarm)
   var alarms: [Alarm] {
     didSet {
-      didChange.send(self)
+      objectWillChange.send(self)
     }
   }
 }

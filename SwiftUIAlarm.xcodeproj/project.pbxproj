@@ -464,14 +464,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "SwiftUIAlarm/Preview\\ Content";
-				DEVELOPMENT_TEAM = 775V28HZUA;
+				DEVELOPMENT_TEAM = 2BL4KQW6R5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIAlarm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = kr.tjy.SwiftUIAlarm;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.tjy.SwiftUIAlarms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -484,14 +484,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "SwiftUIAlarm/Preview\\ Content";
-				DEVELOPMENT_TEAM = 775V28HZUA;
+				DEVELOPMENT_TEAM = 2BL4KQW6R5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIAlarm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = kr.tjy.SwiftUIAlarm;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.tjy.SwiftUIAlarms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -504,14 +504,14 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 775V28HZUA;
+				DEVELOPMENT_TEAM = 2BL4KQW6R5;
 				INFOPLIST_FILE = SwiftUIAlarmTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = kr.tjy.SwiftUIAlarmTests;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.tjy.SwiftUIAlarmsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -525,14 +525,14 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 775V28HZUA;
+				DEVELOPMENT_TEAM = 2BL4KQW6R5;
 				INFOPLIST_FILE = SwiftUIAlarmTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = kr.tjy.SwiftUIAlarmTests;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.tjy.SwiftUIAlarmsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
